@@ -1,0 +1,45 @@
+a{
+    color: #035546;
+    transition: 0.5s;
+}
+.fadeInUp{
+    animation-name: fadeInUp;
+}
+.title{
+    text-align: center;
+    color: #771308;
+    font-weight: bold;
+}
+.subtitle{
+    text-align: center;
+    color: #45494a;
+}
+#news-and-recent  .news-and-recent-col{
+    background: #fff;
+    border-radius:0 0 6px 6px ;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    margin-bottom: 20px;
+}
+#news-and-recent .news-and-recent-col .img{
+    position: relative;
+}
+#news-and-recent .news-and-recent-col .img img{
+    border-radius: 0;
+}
+#news-and-recent .news-and-recent-col h2{
+    color: #bbbbbb;
+    text-align: center;
+    font-weight: bold;
+    padding: 0;
+    margin: 20px 0 12px 0;
+}
+#news-and-recent .news-and-recent-col h2 a {
+    color: #bbbbbb;
+}
+#news-and-recent .news-and-recent-col p{
+    color: #bbbbbb;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0;
+    padding: 0 20px 20px 20px;
+}
