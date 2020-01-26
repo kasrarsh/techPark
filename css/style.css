@@ -9,37 +9,106 @@ a{
     text-align: center;
     color: #771308;
     font-weight: bold;
+    margin-top: 30px;
 }
 .subtitle{
     text-align: center;
     color: #45494a;
 }
-#news-and-recent  .news-and-recent-col{
+
+/*===news-and-recent section===*/
+#news-and-recent-and-support{
+    background-color: darkgray;
+}
+#news-and-recent-and-support  .news-and-recent-col{
     background: #fff;
     border-radius:0 0 6px 6px ;
     box-shadow: 0 2px 12px rgba(0,0,0,0.08);
     margin-bottom: 20px;
+
 }
-#news-and-recent .news-and-recent-col .img{
+#news-and-recent-and-support .news-and-recent-col .img{
     position: relative;
 }
-#news-and-recent .news-and-recent-col .img img{
+#news-and-recent-and-support .news-and-recent-col .img img{
     border-radius: 0;
 }
-#news-and-recent .news-and-recent-col h2{
+#news-and-recent-and-support .news-and-recent-col h2{
     color: #bbbbbb;
     text-align: center;
     font-weight: bold;
     padding: 0;
     margin: 20px 0 12px 0;
 }
-#news-and-recent .news-and-recent-col h2 a {
+#news-and-recent-and-support .news-and-recent-col h2 a {
     color: #bbbbbb;
 }
-#news-and-recent .news-and-recent-col p{
+#news-and-recent-and-support .news-and-recent-col p{
     color: #bbbbbb;
     font-size: 14px;
     line-height: 24px;
     margin-bottom: 0;
     padding: 0 20px 20px 20px;
+}
+/*===carousel section for news-and-recent===*/
+.carousel-control-next ,.carousel-control-prev{
+    width: 100%;
+}
+.carousel-control-prev-icon,.carousel-control-next-icon{
+    width: 20rem;
+    height: 5rem;
+}
+.carousel-indicators{
+    position: relative;
+}
+.carousel-indicators li{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: gray;
+}
+.carousel-indicators .active{
+    background-color: yellow;
+}
+/*===carousel section for news-and-recent===*/
+/*===news-and-recent section===*/
+
+/*===hex===*/
+.hex {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 104px;
+    height: 60px;
+    background-color:white;
+    border-color:white;
+    position: relative;
+    display: inline-block;
+    box-shadow: 0 0 30px 1px gray;
+}
+.hex:before {
+    content: " ";
+    width: 0; height: 0;
+    border-bottom: 30px solid;
+    border-color: inherit;
+    border-left: 52px solid transparent;
+    border-right: 52px solid transparent;
+    position: absolute;
+    top: -30px;
+
+}
+
+.hex:after {
+    content: "";
+    width: 0;
+    height: 20px;
+    position: absolute;
+    bottom: -30px;
+    border-top: 30px solid;
+    border-color: inherit;
+    border-left: 52px solid transparent;
+    border-right: 52px solid transparent;
+
+}
+.hexIn{
+    font-size: large;
 }
