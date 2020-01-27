@@ -1,3 +1,7 @@
+body{
+    text-align: right;
+}
+
 a{
     color: #035546;
     transition: 0.5s;
@@ -7,72 +11,27 @@ a{
 }
 .title{
     text-align: center;
-    color: #771308;
-    font-weight: bold;
+    color: #ca3703;
     margin-top: 30px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    font-size: 26px;
 }
 .subtitle{
     text-align: center;
-    color: #45494a;
+    color: #5d5d5d;
 }
-
-/*===news-and-recent section===*/
-#news-and-recent-and-support{
-    background-color: darkgray;
+.item{
+    direction: rtl;
 }
-#news-and-recent-and-support  .news-and-recent-col{
-    background: #fff;
-    border-radius:0 0 6px 6px ;
-    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
-    margin-bottom: 20px;
-
-}
-#news-and-recent-and-support .news-and-recent-col .img{
-    position: relative;
-}
-#news-and-recent-and-support .news-and-recent-col .img img{
-    border-radius: 0;
-}
-#news-and-recent-and-support .news-and-recent-col h2{
-    color: #bbbbbb;
-    text-align: center;
-    font-weight: bold;
-    padding: 0;
-    margin: 20px 0 12px 0;
-}
-#news-and-recent-and-support .news-and-recent-col h2 a {
-    color: #bbbbbb;
-}
-#news-and-recent-and-support .news-and-recent-col p{
-    color: #bbbbbb;
-    font-size: 14px;
-    line-height: 24px;
-    margin-bottom: 0;
-    padding: 0 20px 20px 20px;
-}
-/*===carousel section for news-and-recent===*/
-.carousel-control-next ,.carousel-control-prev{
-    width: 100%;
-}
-.carousel-control-prev-icon,.carousel-control-next-icon{
-    width: 20rem;
-    height: 5rem;
-}
-.carousel-indicators{
-    position: relative;
-}
-.carousel-indicators li{
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
+/*===membership section===*/
+#membership{
     background-color: gray;
 }
-.carousel-indicators .active{
-    background-color: yellow;
-}
-/*===carousel section for news-and-recent===*/
-/*===news-and-recent section===*/
 
+
+/*===memebership===*/
 /*===hex===*/
 .hex {
     margin-top: 30px;
@@ -112,3 +71,154 @@ a{
 .hexIn{
     font-size: large;
 }
+/*===/hex===*/
+/*===inovationCenter section===*/
+#innovationCenter{
+    background-color: #195E47;
+    padding: 1rem;
+    color: #ffffff;
+}
+.greatTitle{
+    padding-bottom: 2rem;
+}
+#innovationCenter .active{
+    border-color:#feb739 ;
+    color: #feb739;
+}
+.img-thumbnail{
+    border-radius: 0;
+    background-color: #144935;
+    padding: .50rem;
+    border: none;
+}
+.text-and-icons{
+    direction: rtl;
+}
+.text{
+    direction: rtl;
+}
+.rectangle{
+    border: 0.7px solid  ;
+    border-radius: 3px;
+    overflow: hidden;
+    height: 41px;
+    margin-top: 20px;
+}
+#innovationCenter .icon{
+    width: 50%;
+    float: right;
+    text-align: center;
+    height: 41px;
+    color: #feb739;
+
+}
+#innovationCenter .title{
+    width: 50%;
+    color: #ffffff;
+    height: 41px;
+    float: right;
+    font-size: 10px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    overflow: hidden;
+    margin-top: 0;
+    text-align: center;
+}
+/*===inovationCenter section===*/
+/*===news-and-recent section===*/
+#news-and-recent-and-support{
+    background-color: gray;
+}
+#news-and-recent-and-support .news-and-recent-col  .title{
+    font-size: 13.5px;
+    line-height: 1.48;
+    letter-spacing: -0.41px;
+    color: #505050;
+    padding: 0;
+    margin: 20px 0 12px 0;
+}
+#news-and-recent-and-support .news-and-recent-col  .subtitle{
+    font-size: 13.5px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.48;
+    letter-spacing: -0.41px;
+    color: #505050;
+    margin-bottom: 0;
+    padding: 0 20px 20px 20px;
+}
+#news-and-recent-and-support  .news-and-recent-col{
+    background: #fff;
+    border-radius:0 0 6px 6px ;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    margin-bottom: 20px;
+
+}
+#news-and-recent-and-support .news-and-recent-col .img{
+    position: relative;
+}
+#news-and-recent-and-support .news-and-recent-col .img img{
+    border-radius: 0;
+}
+
+/*===carousel section for news-and-recent===*/
+.carousel-control-next ,.carousel-control-prev{
+    width: 100%;
+}
+.carousel-control-prev-icon,.carousel-control-next-icon{
+    width: 20rem;
+    height: 5rem;
+}
+.carousel-indicators{
+    position: relative;
+}
+.carousel-indicators li{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: gray;
+}
+.carousel-indicators .active{
+    background-color: yellow;
+}
+/*===carousel section for news-and-recent===*/
+/*===news-and-recent section===*/
+
+
+ozviat{
+    font-family: wRoyaBakh-09;
+    font-size: 26.5px;
+    line-height: 1.62;
+}
+icon ozviat{
+    font-family: wRoyaBakh-09;
+    font-size: 13.5px;
+    line-height: 1.22;
+
+
+}
+akhbar o tzae ha{
+    font-family: wRoyaBakh-09;
+    font-size: 26.5px;
+    line-height: 1.62;
+
+
+}
+hemayat {
+    font-size: 26.5px;
+    line-height: 1.62;
+
+
+}
+card akhbar o tzae ha{
+    font-family: wRoyaBakh-09;
+    font-size: 13.5px;
+    line-height: 1.48;
+    letter-spacing: -0.41px;
+    color: #505050;
+}
+
+
+
