@@ -1,35 +1,101 @@
+@font-face {
+    font-family: Vazir;
+    src: url('../font/Vazir.eot');
+    src: url('../font/Vazir.eot?#iefix') format("embedded-opentype"),
+    url('../font/Vazir.woff') format('woff'),
+    url('../font/Vazir.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: Vazir-bold;
+    src: url('../font/Vazir-Bold.eot');
+    src: url('../font/Vazir-Bold.eot?#iefix') format("embedded-opentype"),
+    url('../font/Vazir-Bold.woff') format('woff'),
+    url('../font/Vazir-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body{
     text-align: right;
+    font-family: Vazir;
 }
 
 a{
     color: #035546;
     transition: 0.5s;
 }
+.half-triangle-up{
+    position: absolute;
+    right: 0;
+    width: 35%;
+    height: 0;
+    border-bottom: 50px solid #014538;
+    border-left: 25px solid transparent;
+    margin-top: -40px;
+}
 .fadeInUp{
     animation-name: fadeInUp;
 }
 .title{
-    text-align: center;
-    color: #ca3703;
-    margin-top: 30px;
+    font-family: Vazir;
+    direction: rtl;
     font-weight: 900;
     font-stretch: normal;
     font-style: normal;
-    font-size: 26px;
-}
-.subtitle{
+    line-height: 1.62;
+    letter-spacing: normal;
     text-align: center;
+
+}
+.lgTitle{
+    font-size: 26px;
+    color: #ca3703;
+}
+.mdTitle{
+    font-size: 13px;
+    color: #505050;
+}
+.smTitle{
+    font-size: 10px;
     color: #5d5d5d;
 }
 .item{
     direction: rtl;
+    padding: 0 100px;
 }
-/*===membership section===*/
-#membership{
-    background-color: gray;
+.item .mdTitle{
+    color: #ca3703;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+/*===top-slider section===*/
+#top-slider{
+    background-color: #014538;
 }
 
+/*===top-slider section===*/
+/*===membership section===*/
+#membership{
+    background-color: wheat;
+
+}
+#membership .container{
+    background-image: url("../aif-image/ozviat_1.png"), url("../aif-image/ozviat_2.png");
+    background-size: 50% 75%,10% 30%;
+    background-repeat: no-repeat ,no-repeat;
+    background-position: top center ,left bottom;
+}
+#membership .header-membership {
+
+}
+#membership .mdTitle{
+    margin-bottom: 30px;
+}
+#membership .item .smTitle{
+    margin-bottom: 30px;
+}
 
 /*===memebership===*/
 /*===hex===*/
@@ -42,7 +108,7 @@ a{
     border-color:white;
     position: relative;
     display: inline-block;
-    box-shadow: 0 0 30px 1px gray;
+    /*box-shadow: 0 0 30px 1px gray;*/
 }
 .hex:before {
     content: " ";
@@ -74,12 +140,30 @@ a{
 /*===/hex===*/
 /*===inovationCenter section===*/
 #innovationCenter{
-    background-color: #195E47;
-    padding: 1rem;
+    background-color: #014538;
+    padding:0px 50px 50px 50px;
     color: #ffffff;
+
+
+}
+#innovationCenter .header-innovation img{
+    float: left;
+    margin-top: -65px;
+}
+#innovationCenter .container{
+    background-image:url("../aif-image/shetabdahandeha.png") ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: 30% ;
 }
 .greatTitle{
-    padding-bottom: 2rem;
+    font-size: 23px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.15;
+    letter-spacing: -0.92px;
+    text-align: center;
 }
 #innovationCenter .active{
     border-color:#feb739 ;
@@ -87,17 +171,17 @@ a{
 }
 .img-thumbnail{
     border-radius: 0;
-    background-color: #144935;
+    background-color: #00271f;
     padding: .50rem;
     border: none;
 }
 .text-and-icons{
     direction: rtl;
 }
-.text{
-    direction: rtl;
+#innovationCenter .mdTitle{
+    color: #ffffff;
 }
-.rectangle{
+#innovationCenter .rectangle{
     border: 0.7px solid  ;
     border-radius: 3px;
     overflow: hidden;
@@ -105,7 +189,7 @@ a{
     margin-top: 20px;
 }
 #innovationCenter .icon{
-    width: 50%;
+    width: 60%;
     float: right;
     text-align: center;
     height: 41px;
@@ -113,41 +197,35 @@ a{
 
 }
 #innovationCenter .title{
-    width: 50%;
-    color: #ffffff;
+    width: 40%;
     height: 41px;
     float: right;
-    font-size: 10px;
-    font-weight: 900;
-    font-stretch: normal;
-    font-style: normal;
     overflow: hidden;
     margin-top: 0;
     text-align: center;
+    color: #ffffff;
 }
 /*===inovationCenter section===*/
 /*===news-and-recent section===*/
 #news-and-recent-and-support{
-    background-color: gray;
+    background-color: wheat;
+    padding: 50px;
+    background-image: url("../aif-image/akhbar_tazeha_1.png") , url("../aif-image/akhbar_tazeha_2.png") ,url("../aif-image/akhbar_tazeha_3.png");
+    background-repeat: no-repeat;
+    background-position-x: 34% ,right,left ;
+    background-position-y: top,center,bottom;
+    background-size: 214px 213px ,374px 371px , 279px 371px;
 }
-#news-and-recent-and-support .news-and-recent-col  .title{
-    font-size: 13.5px;
-    line-height: 1.48;
-    letter-spacing: -0.41px;
-    color: #505050;
-    padding: 0;
-    margin: 20px 0 12px 0;
+#news-and-recent-and-support .container{
+
 }
-#news-and-recent-and-support .news-and-recent-col  .subtitle{
-    font-size: 13.5px;
-    font-weight: 900;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.48;
-    letter-spacing: -0.41px;
-    color: #505050;
-    margin-bottom: 0;
-    padding: 0 20px 20px 20px;
+#news-and-recent-and-support .news-and-recent-col .mdTitle{
+    padding: 10px 0 0 0 ;
+}
+#news-and-recent-and-support .news-and-recent-col .smTitle{
+    padding: 10px 5px;
+    line-height: 2;
+    text-align: right;
 }
 #news-and-recent-and-support  .news-and-recent-col{
     background: #fff;
@@ -162,63 +240,42 @@ a{
 #news-and-recent-and-support .news-and-recent-col .img img{
     border-radius: 0;
 }
-
+#news-and-recent-and-support .support .mdTitle{
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+#news-and-recent-and-support .support .item .mdTitle{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+#news-and-recent-and-support .support .item .smTitle{
+    font-size: 12px;
+    letter-spacing: -0.89px;
+    line-height: 1.7;
+}
 /*===carousel section for news-and-recent===*/
-.carousel-control-next ,.carousel-control-prev{
+#news-and-recent-and-support .carousel-control-next  #news-and-recent-and-support .carousel-control-prev{
     width: 100%;
 }
-.carousel-control-prev-icon,.carousel-control-next-icon{
+#news-and-recent-and-support .carousel-control-prev-icon , #news-and-recent-and-support .carousel-control-next-icon{
     width: 20rem;
     height: 5rem;
 }
-.carousel-indicators{
+#news-and-recent-and-support .carousel-indicators{
     position: relative;
 }
-.carousel-indicators li{
+#news-and-recent-and-support .carousel-indicators li{
     width: 20px;
     height: 20px;
     border-radius: 50%;
     background-color: gray;
 }
-.carousel-indicators .active{
+#news-and-recent-and-support .carousel-indicators .active{
     background-color: yellow;
 }
 /*===carousel section for news-and-recent===*/
 /*===news-and-recent section===*/
-
-
-ozviat{
-    font-family: wRoyaBakh-09;
-    font-size: 26.5px;
-    line-height: 1.62;
-}
-icon ozviat{
-    font-family: wRoyaBakh-09;
-    font-size: 13.5px;
-    line-height: 1.22;
-
-
-}
-akhbar o tzae ha{
-    font-family: wRoyaBakh-09;
-    font-size: 26.5px;
-    line-height: 1.62;
-
-
-}
-hemayat {
-    font-size: 26.5px;
-    line-height: 1.62;
-
-
-}
-card akhbar o tzae ha{
-    font-family: wRoyaBakh-09;
-    font-size: 13.5px;
-    line-height: 1.48;
-    letter-spacing: -0.41px;
-    color: #505050;
-}
 
 
 
