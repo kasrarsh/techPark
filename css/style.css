@@ -26,12 +26,6 @@ a{
     color: #035546;
     transition: 0.5s;
 }
-.half-triangle-up{
-    width: 0;
-    height: 0;
-    border-left: 25px solid transparent;
-    border-bottom: 50px solid #555;
-}
 .parallelogram {
     width: 100%;
     height: 90px;
@@ -98,6 +92,8 @@ a{
 }
 .header-top-slider{
     direction: rtl;
+    position: relative;
+    z-index: 10;
 }
 .header-top-slider .rectangle{
     background-color: #ffffff;
@@ -123,6 +119,22 @@ a{
     color: #ffffff;
     padding: 15% 0;
 }
+.slide-top-slider{
+    position: relative;
+    margin-top: -20%;
+}
+.slide-top-slider .carousel-item img{
+    width: 1300px;
+    height: 800px;
+}
+#top-slider .text-on-slider{
+    position: relative;
+    z-index: 10;
+}
+#top-slider .text-on-slider .btn{
+    width: 10%;
+    height: 40px;
+}
 /*===top-slider section===*/
 /*===membership section===*/
 #membership{
@@ -131,17 +143,15 @@ a{
     background-size: auto,15% 30%;
     background-repeat: no-repeat ,no-repeat;
     /*background-position: top center ,5% bottom;*/
-
     background-position-x:45% , 5% ;
     background-position-y:150%,100% ;
-
-    padding: 20px;
 }
-#membership .container{
 
+#membership .header-membership{
+    margin-top: -10%;
 }
-#membership .header-membership {
-
+#membership .half-triangle-up{
+    border-bottom-color: wheat;
 }
 #membership .mdTitle{
     margin-bottom: 30px;
@@ -202,19 +212,16 @@ a{
 
 
 }
-#innovationCenter .half-triangle-up{
+.half-triangle-up{
     right: 0;
+    height: 0;
     width: 100%;
-    border-bottom: 50px solid #014538;
+    border-bottom: 50px solid wheat;
     border-left: 40px solid transparent;
-    margin-top: -40px;
 }
 #innovationCenter .header-innovation img{
     float: left;
-    margin-top: -65px;
-}
-#innovationCenter .container{
-
+    margin-top: -36%;
 }
 #innovationCenter .body{
     padding: 0 50px 50px 50px;
@@ -240,6 +247,10 @@ a{
 }
 .text-and-icons{
     direction: rtl;
+}
+#innovationCenter .half-triangle-up{
+    margin-top: -40px;
+    border-bottom-color: #014538;
 }
 #innovationCenter .mdTitle{
     color: #ffffff;
