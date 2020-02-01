@@ -143,7 +143,7 @@ a{
 /*===top-slider section===*/
 /*===membership section===*/
 #membership{
-    background-color: wheat;
+    background-color: #ffffff;
     background-image: url("../aif-image/ozviat_1.png"), url("../aif-image/ozviat_2.png");
     background-size: auto,15% 30%;
     background-repeat: no-repeat ,no-repeat;
@@ -156,7 +156,7 @@ a{
     margin-top: -125px;
 }
 #membership .half-triangle-up{
-    border-bottom-color: wheat;
+    border-bottom-color: #ffffff;
 }
 #membership .mdTitle{
     margin-bottom: 30px;
@@ -243,7 +243,7 @@ a{
     right: 0;
     height: 0;
     width: 100%;
-    border-bottom: 50px solid wheat;
+    border-bottom: 50px solid #ffffff;
     border-left: 40px solid transparent;
 }
 #innovationCenter .header-innovation img{
@@ -309,7 +309,7 @@ a{
 /*===inovationCenter section===*/
 /*===news-and-recent section===*/
 #news-and-recent-and-support{
-    background-color: wheat;
+    background-color: #ffffff;
     padding: 50px;
     background-image: url("../aif-image/akhbar_tazeha_1.png") , url("../aif-image/akhbar_tazeha_2.png") ,url("../aif-image/akhbar_tazeha_3.png");
     background-repeat: no-repeat;
@@ -329,7 +329,7 @@ a{
     text-align: right;
 }
 #news-and-recent-and-support  .news-and-recent-col{
-    background: #fff;
+    background: #ffffff;
     border-radius:0 0 6px 6px ;
     box-shadow: 0 2px 12px rgba(0,0,0,0.08);
     margin-bottom: 20px;
