@@ -314,7 +314,7 @@ a{
     background-image: url("../aif-image/akhbar_tazeha_1.png") , url("../aif-image/akhbar_tazeha_2.png") ,url("../aif-image/akhbar_tazeha_3.png");
     background-repeat: no-repeat;
     background-position-x: 34% ,85%,left ;
-    background-position-y: top,center,127%;
+    background-position-y: top,center,120%;
     background-size: 214px 213px ,374px 371px , 279px 371px;
 }
 #news-and-recent-and-support .container{
@@ -380,6 +380,9 @@ a{
     background-color: #035546;
     color: #ffffff;
     padding: 30px;
+    background-image: url("../aif-image/map_1.png");
+    background-repeat: no-repeat;
+    background-position: 90% center;
 }
 
 #contact-us .info-box{
