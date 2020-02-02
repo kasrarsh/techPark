@@ -229,7 +229,7 @@ a{
 }
 /*===/hex===*/
 /*===inovationCenter section===*/
-#innovationCenter{
+#innovation-center{
     background-color: #014538;
     color: #ffffff;
     background-image:url("../aif-image/shetabdahandeha.png") ;
@@ -246,11 +246,11 @@ a{
     border-bottom: 50px solid #ffffff;
     border-left: 40px solid transparent;
 }
-#innovationCenter .header-innovation img{
+#innovation-center .header-innovation img{
     float: left;
     margin-top: -60px;
 }
-#innovationCenter .body{
+#innovation-center .body{
     padding: 0 50px 50px 50px;
 }
 .greatTitle{
@@ -275,21 +275,21 @@ a{
 .text-and-icons{
     direction: rtl;
 }
-#innovationCenter .half-triangle-up{
+#innovation-center .half-triangle-up{
     margin-top: -40px;
     border-bottom-color: #014538;
 }
-#innovationCenter .mdTitle{
+#innovation-center .mdTitle{
     color: #ffffff;
 }
-#innovationCenter .rectangle{
+#innovation-center .rectangle{
     border: 0.7px solid  ;
     border-radius: 3px;
     overflow: hidden;
     height: 41px;
     margin-top: 20px;
 }
-#innovationCenter .icon{
+#innovation-center .icon{
     width: 60%;
     float: right;
     text-align: center;
@@ -297,7 +297,7 @@ a{
     color: #feb739;
 
 }
-#innovationCenter .title{
+#innovation-center .title{
     width: 40%;
     height: 41px;
     float: right;
