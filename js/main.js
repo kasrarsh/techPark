@@ -1,6 +1,6 @@
 
-// $(document).ready(function(){
-//     $(".rectangle").click(function(){
-//         $(this).addClass("active");
-//     });
-// });
+$(document).ready(function(){
+    $("#innovationCenter .rectangle").click(function(){
+        $(this).addClass("active");
+    });
+});

@@ -165,25 +165,25 @@ a{
     margin-bottom: 30px;
 }
 #membership .hex{
-    width: 160px;
-    height: 92.38px;
-    margin: 46.19px 0;
+    width: 100px;
+    height: 57px;
+    margin: 28px 0;
     border-left-width: 2px;
     border-right-width: 2px;
 
 }
 #membership .hex:before , #membership .hex:after{
-    width: 113.14px;
-    height: 113.14px;
-    left: 22.4315px;
+    width: 70px;
+    height: 70px;
+    left: 13px;
 }
 #membership .hex:before{
-    top: -56.5685px;
+    top: -35px;
     border-top: solid 2.8284px #d9d9d9;
     border-right: solid 2.8284px #d9d9d9;
 }
 #membership .hex:after{
-    bottom: -56.5685px;
+    bottom: -35px;
     border-bottom: solid 2.8284px #d9d9d9;
     border-left: solid 2.8284px #d9d9d9;
 }
@@ -191,10 +191,10 @@ a{
 /*===hex===*/
 .hex{
           position: relative;
-          width: 202px;
-          height: 116.62px;
+          width: 140px;
+          height: 80px;
           background-color: #ffffff;
-          margin: 58.31px 0;
+          margin: 40px 0;
           border-left: solid 4px #d9d9d9;
           border-right: solid 4px #d9d9d9;
 }
@@ -203,23 +203,23 @@ a{
     content: "";
     position: absolute;
     z-index: 1;
-    width: 142.84px;
-    height: 142.84px;
+    width: 98px;
+    height: 98px;
     -webkit-transform: scaleY(0.5774) rotate(-45deg);
     -ms-transform: scaleY(0.5774) rotate(-45deg);
     transform: scaleY(0.5774) rotate(-45deg);
     background-color: inherit;
-    left: 25.5822px;
+    left: 19px;
 }
 
 .hex:before {
-    top: -71.4178px;
+    top: -49px;
     border-top: solid 5.6569px #d9d9d9;
     border-right: solid 5.6569px #d9d9d9;
 }
 
 .hex:after {
-    bottom: -71.4178px;
+    bottom: -49.4178px;
     border-bottom: solid 5.6569px #d9d9d9;
     border-left: solid 5.6569px #d9d9d9;
 }
