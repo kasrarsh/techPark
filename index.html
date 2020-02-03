@@ -6,11 +6,16 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
-    <!--    <script src="https://kit.fontawesome.com/0f7151aca0.js" crossorigin="anonymous"></script>-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
+
+    <script src="https://unpkg.com/swiper/js/swiper.js"></script>
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
 
 </head>
 <body>
@@ -89,10 +94,10 @@
                 </div>
             </div>
             <a class="carousel-control-prev " href="#slider" data-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
+                <span></span>
             </a>
             <a class="carousel-control-next " href="#slider" data-slide="next">
-                <span class="carousel-control-next-icon"></span>
+                <span></span>
             </a>
         </div>
     </div>
@@ -317,8 +322,9 @@
             </div>
             <div class="col-md-9">
                 <div class="text-and-icons">
-                    <div class="row">
-                        <div class="col-md-12 " id="innovation-center-1">
+                        <div class="text">
+                            <div class="row">
+                        <div class="col-md-12 innovation-center-1 d-block" innovationid="1" >
                             <div class="text mdTitle d-flex justify-content-end">
                                 <p>
                                     <span class="active"> کارگاه نوآوری هفتم و هشتم </span> به عنوان یک کارگاه نوآوری در
@@ -331,8 +337,8 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="col-md-12"  id="innovation-center-2">
-                            <div class="text mdTitle d-flex justify-content-end ">
+                        <div class="col-md-12 innovation-center-2 d-none"  innovationid="2">
+                            <div class="text mdTitle d-flex justify-content-end">
                                 <p>
                                     <span class="active"> همنام فارمد </span> به عنوان یک کارگاه نوآوری در
                                     حوزه معماری، طراحی شهری، شهرسازی، طراحی منظر، طراحی صنعتی و صنعت ساختمان، به افراد
@@ -344,7 +350,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="col-md-12"  id="innovation-center-3">
+                        <div class="col-md-12 innovation-center-3 d-none">
                             <div class="text mdTitle d-flex justify-content-end">
                                 <p>
                                     <span class="active"> نوآفرینی پلنت </span> به عنوان یک کارگاه نوآوری در
@@ -357,7 +363,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="col-md-12"  id="innovation-center-4">
+                        <div class="col-md-12 innovation-center-4 d-none">
                             <div class="text mdTitle d-flex justify-content-end">
                                 <p>
                                     <span class="active"> کارگاه نوآوری هفتم و هشتم </span> به عنوان یک کارگاه نوآوری در
@@ -370,7 +376,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="col-md-12"  id="innovation-center-5">
+                        <div class="col-md-12 innovation-center-5 d-none" innovationid="5">
                             <div class="text innovation-center-1 mdTitle d-flex justify-content-end">
                                 <p>
                                     <span class="active"> کارگاه نوآوری هفتم و هشتم </span> به عنوان یک کارگاه نوآوری در
@@ -383,7 +389,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="col-md-12"  id="innovation-center-6">
+                        <div class="col-md-12 innovation-center-6 d-none"  innovationid="6">
                             <div class="text innovation-center-1 mdTitle d-flex justify-content-end">
                                 <p>
                                     <span class="active"> کارگاه نوآوری هفتم و هشتم </span> به عنوان یک کارگاه نوآوری در
@@ -396,7 +402,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="col-md-12"  id="innovation-center-7">
+                        <div class="col-md-12 innovation-center-7 d-none" innovationid="7">
                             <div class="text innovation-center-1 mdTitle d-flex justify-content-end">
                                 <p>
                                     <span class="active"> کارگاه نوآوری هفتم و هشتم </span> به عنوان یک کارگاه نوآوری در
@@ -409,7 +415,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="col-md-12"  id="innovation-center-8">
+                        <div class="col-md-12 innovation-center-8 d-none" innovationid="8">
                             <div class="text innovation-center-1 mdTitle d-flex justify-content-end">
                                 <p>
                                     <span class="active"> کارگاه نوآوری هفتم و هشتم </span> به عنوان یک کارگاه نوآوری در
@@ -422,8 +428,12 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="col-md-3 ">
-                            <div class="rectangle active">
+                        </div>
+                        </div>
+                        <div class="icons">
+                            <div class="row">
+                        <div class="col-md-3  innovation-center-1">
+                            <div class="rectangle active" innovationid="1">
                                 <div class="icon d-flex justify-content-center align-items-center active">
                                     <img src="aif-image/shetabdahandeha_logo_1.png">
                                 </div>
@@ -432,8 +442,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3">
-                            <div class="rectangle">
+                        <div class="col-md-3 innovation-center-2" >
+                            <div class="rectangle " innovationid="2">
                                 <div class="icon d-flex justify-content-center align-items-center">
                                     <img src="aif-image/shetabdahandeha_logo_2.png"></div>
                                 <div class="title smTitle d-flex justify-content-center align-items-center">
@@ -442,7 +452,7 @@
                             </div>
                         </div>
                         <div class="col-md-3">
-                            <div class="rectangle">
+                            <div class="rectangle" innovationid="3">
                                 <div class="icon d-flex justify-content-center align-items-center">
                                     <img src="aif-image/shetabdahandeha_logo_3.png"></div>
                                 <div class="title smTitle d-flex justify-content-center align-items-center">
@@ -453,7 +463,7 @@
                             </div>
                         </div>
                         <div class="col-md-3">
-                            <div class="rectangle">
+                            <div class="rectangle" innovationid="4">
                                 <div class="icon d-flex justify-content-center align-items-center">
                                     <img src="aif-image/shetabdahandeha_logo_4.png"></i>
                                 </div>
@@ -463,7 +473,7 @@
                             </div>
                         </div>
                         <div class="col-md-3">
-                            <div class="rectangle">
+                            <div class="rectangle" innovationid="5">
                                 <div class="icon d-flex justify-content-center align-items-center">
                                     <img src="aif-image/shetabdahandeha_logo_5.png">
                                 </div>
@@ -473,7 +483,7 @@
                             </div>
                         </div>
                         <div class="col-md-3">
-                            <div class="rectangle">
+                            <div class="rectangle" innovationid="6">
                                 <div class="icon d-flex justify-content-center align-items-center">
                                     <img src="aif-image/shetabdahandeha_logo_6.png">
                                 </div>
@@ -483,7 +493,7 @@
                             </div>
                         </div>
                         <div class="col-md-3">
-                            <div class="rectangle">
+                            <div class="rectangle" innovationid="7">
                                 <div class="icon d-flex justify-content-center align-items-center">
                                     <img src="aif-image/shetabdahandeha_logo_7.png">
                                 </div>
@@ -493,7 +503,7 @@
                             </div>
                         </div>
                         <div class="col-md-3">
-                            <div class="rectangle">
+                            <div class="rectangle" innovationid="8">
                                 <div class="icon d-flex justify-content-center align-items-center">
                                     <img src="aif-image/shetabdahandeha_logo_8.png"></div>
                                 <div class="title smTitle d-flex justify-content-center align-items-center">
@@ -501,16 +511,42 @@
                                 </div>
                             </div>
                         </div>
-
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="col-md-3">
-                <div class="d-flex justify-content-center align-items-center">
-                    <img src="aif-image/shetabdahandeha_image.png" class="img-fluid img-thumbnail">
+                <div class="image">
+                <div class="innovation-center-1 d-block">
+                    <img src="img/testimonial-4.jpg" class="img-fluid img-thumbnail">
+                </div>
+                <div class="innovation-center-2 d-none">
+                    <img src="img/team-1.jpg" class="img-fluid img-thumbnail">
+                </div>
+                <div class="innovation-center-3 d-none">
+                    <img src="img/team-2.jpg" class="img-fluid img-thumbnail">
+                </div>
+                <div class="innovation-center-4 d-none">
+                    <img src="img/team-3.jpg" class="img-fluid img-thumbnail">
+                </div>
+                <div class="innovation-center-5 d-none">
+                    <img src="img/team-4.jpg" class="img-fluid img-thumbnail">
+                </div>
+                <div class="innovation-center-6 d-none">
+                    <img src="img/testimonial-1.jpg" class="img-fluid img-thumbnail">
+                </div>
+                <div class="innovation-center-7 d-none">
+                    <img src="img/testimonial-2.jpg" class="img-fluid img-thumbnail">
+                </div>
+                <div class="innovation-center-8 d-none">
+                    <img src="img/testimonial-3.jpg" class="img-fluid img-thumbnail">
+                </div>
                 </div>
             </div>
         </div>
+    </div>
+
+    </div>
     </div>
 </section>
 
@@ -536,16 +572,15 @@
             <div id="news-and-recent-carousel" class="carousel " data-ride="carousel">
                 <div class="row">
                     <div class="col-md-1">
-                        <a class="carousel-control-prev " href="#news-and-recent-carousel" data-slide="prev">
-                            <span class="carousel-control-prev-icon"></span>
+                        <a class="carousel-control-prev w-100" href="#news-and-recent-carousel" data-slide="prev">
+                            <span></span>
                         </a>
                     </div>
                     <div class="col-md-10">
                         <div class="carousel-inner">
                             <div class="carousel-item active ">
                                 <div class="row">
-                                    <div class="col-md-4 wow fadeInUp"
-                                         style="visibility: visible; animation-name: fadeInUp;">
+                                    <div class="col-md-4 wow">
                                         <div class="news-and-recent-col">
                                             <div class="img">
                                                 <img src="img/about-mission.jpg" alt="" class="img-fluid">
@@ -563,11 +598,10 @@
                                             </p>
                                         </div>
                                     </div>
-                                    <div class="col-md-4 wow fadeInUp"
-                                         style="visibility: visible; animation-name: fadeInUp;">
+                                    <div class="col-md-4 wow">
                                         <div class="news-and-recent-col">
                                             <div class="img">
-                                                <img src="img/about-mission.jpg" alt="" class="img-fluid">
+                                                <img src="img/about-bg.jpg" alt="" class="img-fluid">
                                             </div>
                                             <h2 class="title mdTitle">افتتاح کارخانه نوآوری آزادی توسط رئیس
                                                 جمهور
@@ -582,11 +616,11 @@
                                             </p>
                                         </div>
                                     </div>
-                                    <div class="col-md-4 wow fadeInUp"
+                                    <div class="col-md-4 wow"
                                          style="visibility: visible; animation-name: fadeInUp;">
                                         <div class="news-and-recent-col">
                                             <div class="img">
-                                                <img src="img/about-mission.jpg" alt="" class="img-fluid">
+                                                <img src="img/about-plan.jpg" alt="" class="img-fluid">
                                             </div>
                                             <h2 class="title mdTitle">افتتاح کارخانه نوآوری آزادی توسط رئیس
                                                 جمهور
@@ -606,8 +640,25 @@
                             </div>
                             <div class="carousel-item  ">
                                 <div class="row">
-                                    <div class="col-md-4 wow fadeInUp"
-                                         style="visibility: visible; animation-name: fadeInUp;">
+                                    <div class="col-md-4 wow">
+                                        <div class="news-and-recent-col">
+                                            <div class="img">
+                                                <img src="img/about-vision.jpg" alt="" class="img-fluid">
+                                            </div>
+                                            <h2 class="title mdTitle">افتتاح کارخانه نوآوری آزادی توسط رئیس
+                                                جمهور
+                                                گفت‌وگوی صمیمی روحانی با جوانان فعال استارتاپی</h2>
+                                            <p class="title smTitle">
+                                                اسم پرده برداری از یادمان افتتاح و بهره‌برداری رسمی از کارخانه
+                                                نوآوری آزادی، اولین شعبه پارک فناوری پردیس، با حضور ریاست جمهوری
+                                                برگزار شد. رئیس جمهور هنگام افتتاح رسمی کارخانه نوآوری آزادی
+                                                گفت: در ماه بسیار مبارک ربیع المولود کارخانه نوآوری آزادی را با
+                                                توسل به روح عظیم‌الشان پیامبر اسلام(ص) و با نام خداوند بزرگ
+                                                افتتاح می کنیم
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 wow">
                                         <div class="news-and-recent-col">
                                             <div class="img">
                                                 <img src="img/about-mission.jpg" alt="" class="img-fluid">
@@ -625,27 +676,7 @@
                                             </p>
                                         </div>
                                     </div>
-                                    <div class="col-md-4 wow fadeInUp"
-                                         style="visibility: visible; animation-name: fadeInUp;">
-                                        <div class="news-and-recent-col">
-                                            <div class="img">
-                                                <img src="img/about-mission.jpg" alt="" class="img-fluid">
-                                            </div>
-                                            <h2 class="title mdTitle">افتتاح کارخانه نوآوری آزادی توسط رئیس
-                                                جمهور
-                                                گفت‌وگوی صمیمی روحانی با جوانان فعال استارتاپی</h2>
-                                            <p class="title smTitle">
-                                                اسم پرده برداری از یادمان افتتاح و بهره‌برداری رسمی از کارخانه
-                                                نوآوری آزادی، اولین شعبه پارک فناوری پردیس، با حضور ریاست جمهوری
-                                                برگزار شد. رئیس جمهور هنگام افتتاح رسمی کارخانه نوآوری آزادی
-                                                گفت: در ماه بسیار مبارک ربیع المولود کارخانه نوآوری آزادی را با
-                                                توسل به روح عظیم‌الشان پیامبر اسلام(ص) و با نام خداوند بزرگ
-                                                افتتاح می کنیم
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 wow fadeInUp"
-                                         style="visibility: visible; animation-name: fadeInUp;">
+                                    <div class="col-md-4 wow">
                                         <div class="news-and-recent-col">
                                             <div class="img">
                                                 <img src="img/about-mission.jpg" alt="" class="img-fluid">
@@ -669,8 +700,8 @@
                         </div>
                     </div>
                     <div class="col-md-1">
-                        <a class="carousel-control-next " href="#news-and-recent-carousel" data-slide="next">
-                            <span class="carousel-control-next-icon"></span>
+                        <a class="carousel-control-next w-100" href="#news-and-recent-carousel" data-slide="next">
+                            <span></span>
                         </a>
                     </div>
                     <div class="col-md-12">
@@ -889,5 +920,27 @@
         </div>
     </div>
 </section>
+
+<section id="swiper">
+    <!-- Slider main container -->
+    <div class="swiper-container">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">Slide 1</div>
+            <div class="swiper-slide">Slide 2</div>
+            <div class="swiper-slide">Slide 3</div>
+            ...
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+    </div>
+</section>
 </body>
 </html>
+

@@ -451,4 +451,9 @@ a{
 /*===news-and-recent section===*/
 
 
+/*===swiper===*/
+.swiper-container{
+    width: 600px;
+    height: 300px;
+}
 
