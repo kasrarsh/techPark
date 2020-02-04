@@ -14,12 +14,13 @@ $(document).ready(function(){
     });
     var mySwiper = new Swiper ('.swiper-container', {
         // Optional parameters
-        direction: 'vertical',
-        loop: true,
+        slidesPerView:3,
+        spaceBetween:30,
 
         // If we need pagination
         pagination: {
             el: '.swiper-pagination',
+            clickable: true,
         },
 
         // Navigation arrows
@@ -28,4 +29,7 @@ $(document).ready(function(){
             prevEl: '.swiper-button-prev',
         },
     })
+
+
+
 });
