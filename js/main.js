@@ -14,9 +14,17 @@ $(document).ready(function(){
     });
     var mySwiper = new Swiper ('.swiper-container', {
         // Optional parameters
-        slidesPerView:3,
-        spaceBetween:30,
-
+        slidesPerView: 1,
+        spaceBetween: 30,
+        // Responsive breakpoints
+        breakpoints: {
+            // when window width is >= 320px
+            // when window width is >= 480px
+            // when window width is >= 640px
+            800: {
+                slidesPerView: 3,
+            }
+        },
         // If we need pagination
         pagination: {
             el: '.swiper-pagination',
