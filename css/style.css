@@ -493,6 +493,12 @@ a{
 .view{
     direction: rtl;
 }
+.view .title{
+    font-size: 26px;
+}
+.view .subtitle{
+    font-size:45px;
+}
 .view .active{
     color:#055b4a;
 }
