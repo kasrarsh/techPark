@@ -490,29 +490,26 @@ a{
 }
 /**** end css for index****/
 /**** start css for view ****/
-.view{
+.single-view{
     direction: rtl;
     background-image:url("../aif-image/akhbar_tazeha_3.png"),url("../aif-image/akhbar_tazeha_2.png") ;
     background-position: 0 -5% ,120% 20%   ;
     background-repeat: no-repeat;
 }
-.view .container{
-
-}
-.view .title{
+.single-view .title{
     font-size: 26px;
 }
-.view .subtitle{
+.single-view .subtitle{
     font-size:45px;
 }
-.view .active{
+.single-view .active{
     color:#055b4a;
 }
-.view li{
+.single-view li{
     display:inline;
     padding-right: 2rem;
 }
-.view .comment .btn{
+.single-view .comment .btn{
     background-color: #feb739;
     width: 100%;
     color: #014538;
