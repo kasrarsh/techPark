@@ -489,7 +489,7 @@ a{
     margin-top: -5%;
 }
 /**** end css for index****/
-/**** start css for view ****/
+/**** start css for single-view ****/
 .single-view{
     direction: rtl;
     background-image:url("../aif-image/akhbar_tazeha_3.png"),url("../aif-image/akhbar_tazeha_2.png") ;
@@ -514,5 +514,37 @@ a{
     width: 100%;
     color: #014538;
 }
+/**** end css for single-view ****/
+/**** start css for album****/
+.album{
 
-/**** end css for view ****/
+}
+.album .banner{
+    background-color: #feb739;
+}
+.album .extra-info .observation{
+    background-color: #feb739;
+}
+.album .extra-info .statistic{
+    background-color: #055b4a;
+    color: #ffffff;
+}
+.album .title{
+    color: #055b4a;
+    font-size: 26px;
+}
+.album .banner{
+    font-size: 23px;
+}
+
+.album .title-news{
+    font-size: 20px;
+}
+.album .image-news {
+    border: 10px solid white;
+}
+.album .news .single-new{
+    background-color: #a19ea8;
+}
+
+/**** end css for album****/
