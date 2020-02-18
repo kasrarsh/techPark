@@ -519,8 +519,9 @@ a{
 .album{
 
 }
-.album .banner{
+.album .banner ,.archived-news .banner{
     background-color: #feb739;
+    font-size: 23px;
 }
 .album .extra-info .observation{
     background-color: #feb739;
@@ -529,14 +530,10 @@ a{
     background-color: #055b4a;
     color: #ffffff;
 }
-.album .title{
+.album .title ,.archived-news .title{
     color: #055b4a;
     font-size: 26px;
 }
-.album .banner{
-    font-size: 23px;
-}
-
 .album .title-news{
     font-size: 20px;
 }
