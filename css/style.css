@@ -519,29 +519,57 @@ a{
 .album{
 
 }
+
 .album .banner ,.archived-news .banner{
-    background-color: #feb739;
+    background-color: #ffcc3f;
     font-size: 23px;
 }
-.album .extra-info .observation{
-    background-color: #feb739;
-}
-.album .extra-info .statistic{
-    background-color: #055b4a;
-    color: #ffffff;
+.album .banner{
+    font-size: 35px;
 }
 .album .title ,.archived-news .title{
-    color: #055b4a;
-    font-size: 26px;
+    color: #045e4c;
+    font-size: 50px;
 }
-.album .title-news{
+.album .subtitle{
+    font-size: 35px;
+}
+.album .single-new .date-news{
+    color: #454545;
     font-size: 20px;
+    font-weight: 800;
+}
+.album .extra-info .observation{
+    background-color: #ffcc3f;
+    color: #464646;
+}
+.album .extra-info .statistic{
+    background-color: #1f7335;
+    color: #ffffff;
+}
+
+.album .title-news{
+    font-size: 30px;
 }
 .album .image-news {
     border: 10px solid white;
 }
 .album .news .single-new{
-    background-color: #a19ea8;
+    background-color: #e2e1e1;
 }
+.album .icon{
+    top: 85%;
+    background-color: #ffffff;
+
+}
+.album .icon-camera{
+    right: 0;
+}
+.album .icon-manufacture{
+    left: 0;
+    bottom: 0;
+    width: 10%;
+}
+
 
 /**** end css for album****/
