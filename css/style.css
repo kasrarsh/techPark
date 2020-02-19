@@ -515,65 +515,88 @@ a{
     color: #014538;
 }
 /**** end css for single-view ****/
-/**** start css for album****/
-.album{
+/**** start css for album-archived****/
+album-archived{
 
 }
 
-.album .banner ,.archived-news .banner{
+.album-archived .banner{
     background-color: #ffcc3f;
     font-size: 23px;
 }
-.album .banner{
-    font-size: 35px;
+.album-archived .banner{
+    font-size: 25px;
 }
-.album .banner-camera{
+.album-archived .banner-camera{
     left: 20%;
     color: #045e4c;
     top: 2.5em;
 }
-.album .title ,.archived-news .title{
+.album-archived .title{
     color: #045e4c;
-    font-size: 50px;
-}
-.album .subtitle{
     font-size: 35px;
 }
-.album .single-new .date-news{
-    color: #454545;
+.album-archived .subtitle{
     font-size: 20px;
+}
+.album-archived .single-new .date-news{
+    color: #454545;
     font-weight: 800;
 }
-.album .extra-info .observation{
+.album-archived .extra-info{
+
+}
+.album-archived .extra-info .observation{
     background-color: #ffcc3f;
     color: #464646;
 }
-.album .extra-info .statistic{
+.album-archived .extra-info .statistic{
     background-color: #1f7335;
     color: #ffffff;
 }
 
-.album .title-news{
-    font-size: 30px;
+.album-archived .title-news{
+    font-size: 20px;
+    font-weight: bolder;
 }
-.album .image-news {
-    border: 10px solid white;
+.album-archived .subtitle-news{
+    font-size: 15px ;
+    font-weight: bold;
 }
-.album .news .single-new{
+.album-archived .single-new .body-news{
+    font-size: 15px;
+    font-weight: bold;
+}
+.album-archived .image-news {
+    border: 1px solid #ebebeb;
+    padding: 6px;
+    background-color: #ffffff;
+    height: 285px;
+
+}
+.album-archived .image-news img{
+    object-fit: fill;
+    height: 100%;
+}
+.album-archived .news .single-new{
     background-color: #e2e1e1;
 }
-.album .icon{
-    top: 85%;
+.album-archived .icon{
+    top: 75%;
     background-color: #ffffff;
 
 }
-.album .icon-camera{
+.album-archived .icon-camera{
     right: 0;
 }
-.album .icon-manufacture{
+.album-archived .icon-manufacture{
     left: 0;
     bottom: 0;
     width: 10%;
+}
+.archived .date-news{
+    background-color: #ebebeb;
+
 }
 
 
